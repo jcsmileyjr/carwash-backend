@@ -29,11 +29,14 @@ export const issueType = defineType({
 			title: 'Pick Trash',
 			name: 'content',
 			type: 'string',
+			readOnly: true,
+			initialValue: 'Pick up trash',
 		  },
 		  {
 			title: 'Checked',
 			name: 'checked',
 			type: 'boolean',
+			initialValue: false,
 		  }
 		]
 	},
@@ -45,11 +48,14 @@ export const issueType = defineType({
 			title: 'Clean Vacuum',
 			name: 'content',
 			type: 'string',
+			readOnly: true,
+			initialValue: "Clean out bottom of vaccum",
 		  },
 		  {
 			title: 'Checked',
 			name: 'checked',
 			type: 'boolean',
+			initialValue: false,
 		  }
 		]	
 	},
@@ -61,11 +67,14 @@ export const issueType = defineType({
 			title: 'Dump Trash Cans',
 			name: 'content',
 			type: 'string',
+			readOnly: true,
+			initialValue: "Dump trash cans",
 		  },
 		  {
 			title: 'Checked',
 			name: 'checked',
 			type: 'boolean',
+			initialValue: false,
 		  }
 		]	
 	},
@@ -77,11 +86,14 @@ export const issueType = defineType({
 			title: 'Mow Lawn',
 			name: 'content',
 			type: 'string',
+			readOnly: true,
+			initialValue: "Cut or weed the lawn",
 		  },
 		  {
 			title: 'Checked',
 			name: 'checked',
 			type: 'boolean',
+			initialValue: false,
 		  }
 		]	
 	}, 
@@ -93,11 +105,14 @@ export const issueType = defineType({
 			title: 'Check Vacuum Hoses',
 			name: 'content',
 			type: 'string',
+			readOnly: true,
+			initialValue: "Check vacuums hose’s heads for obstructions",
 		  },
 		  {
 			title: 'Checked',
 			name: 'checked',
 			type: 'boolean',
+			initialValue: false,
 		  }
 		]	
 	},
@@ -109,11 +124,14 @@ export const issueType = defineType({
 			title: 'Check Bay Equipment',
 			name: 'content',
 			type: 'string',
+			readOnly: true,
+			initialValue: "Check each bay wand or brush to ensure it works.",
 		  },
 		  {
 			title: 'Checked',
 			name: 'checked',
 			type: 'boolean',
+			initialValue: false,
 		  }	
 		]	
 	}
