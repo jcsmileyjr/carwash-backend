@@ -118,6 +118,25 @@ export const issueType = defineType({
 	},
 	{
 		type: 'object',
+		name: 'checkVacuumCoinAccepter',
+		fields: [
+		  {
+			title: 'Check Vacuum Coin Acceptor',
+			name: 'content',
+			type: 'string',
+			readOnly: true,
+			initialValue: "Check vacuums coin accepter for obstructions (pennies, nickels,etc.)",
+		  },
+		  {
+			title: 'Checked',
+			name: 'checked',
+			type: 'boolean',
+			initialValue: false,
+		  }
+		]	
+	},	
+	{
+		type: 'object',
 		name: 'checkBayEquipment',	
 		fields: [
 		  {
